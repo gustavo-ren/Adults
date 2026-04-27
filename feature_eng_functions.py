@@ -1,7 +1,7 @@
 import pandas as pd
 
 def drop_unnecessary(df: pd.DataFrame) -> pd.DataFrame:
-    return df.drop(columns=["native-country", "education", "marital-status", "relationship",
+    return df.drop(columns=["native-country", "education", "marital-status", "relationship","hours-per-week","capital-loss", "capital-gain",
                             "race", "sex"])
 
 
